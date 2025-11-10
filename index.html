@@ -637,7 +637,7 @@
                 statusResult.innerHTML = `Order ${orderId} found! <br> Progress: DELIVERED! <br> Thank you for your purchase!`;
                 statusResult.style.color = 'green';
             } else if (orderId.startsWith('MA-')) {
-                 statusResult.innerHTML = `Order **${orderId}** found! <br> Progress: Processing/Email Sent <br> We'll start production soon.`;
+                 statusResult.innerHTML = `Order ${orderId} found! <br> Progress: Processing/Email Sent <br> We'll start production soon.`;
                  statusResult.style.color = 'blue';
             } else {
                 statusResult.textContent = `Order ID ${orderId} not found. Please check your ID.`;
